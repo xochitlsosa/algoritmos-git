@@ -30,3 +30,7 @@ _Create and edit text files_
 _Get the state of the computer_
 - To get the computer's software and hardware status use "systeminfo"
 
+_Git Branches_
+- To display a list of the. branches on your repository use "git branch"
+- If you want to merge a brach into your current one, use "git merge <branch>"
+
