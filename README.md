@@ -27,4 +27,6 @@ _Create and edit text files_
 - Use "cat <file name>.txt" to create a text file
 - To keep editing the file run "<this is a test> > <file name>.txt"
 
+_Get the state of the computer_
+- To get the computer's software and hardware status use "systeminfo"
 
