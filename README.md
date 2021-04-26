@@ -38,4 +38,12 @@ _Rewriting Git history_
 - To change the las commit from a base to another we use "git rebase <new base>
 - To display a log of changes to the local repository's head we use "git reflog"
 
+_Git Branches_
+- To switch between branches we use the command "git checkout <branch name>"
+- When we need to merge two branches together use "git merge <name>", to merge <name> into the current branch.
+- And then, use "git branch -d" to delete the empty merged branch.
 
+_Synchronizing Repositories_
+- We use "git fetch remote" to fetch changes from the remote but not updating tracking branches.
+- To push local changes into the remote we use "git pull remote"
+- To push a local branch to the remote repository we use the command "git push -u remote branch"
