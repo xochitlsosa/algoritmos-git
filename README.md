@@ -18,4 +18,7 @@ _Comparing_
 - To compare two files we use "diff" <file name 1> <file name 2>
 - To display the differences of two files we use "diff" <file name 1> <file name 2>
 
-
+_Finding files, folders, and inside files_
+- To find files with specific extensions and locations we can use "find /<location> <file name>.<extension>"
+- To find empty files in the current directory we use "find.<type f> <empty>"
+- To find directories we use "find.<type d>"
