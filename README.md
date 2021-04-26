@@ -34,3 +34,8 @@ _Git Branches_
 - To display a list of the. branches on your repository use "git branch"
 - If you want to merge a brach into your current one, use "git merge <branch>"
 
+_Rewriting Git history_
+- To change the las commit from a base to another we use "git rebase <new base>
+- To display a log of changes to the local repository's head we use "git reflog"
+
+
