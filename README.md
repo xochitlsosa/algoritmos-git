@@ -13,3 +13,9 @@ _Creating & deleting directories_
 
 _Navigating_
 - Use cd/<directory name" to navigate the existing directories
+
+_Comparing_
+- To compare two files we use "diff" <file name 1> <file name 2>
+- To display the differences of two files we use "diff" <file name 1> <file name 2>
+
+
