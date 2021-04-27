@@ -52,3 +52,7 @@ _Configuring Git_
 - To start working with git, you must set the name that will be attached to your commits and tags with "git config --globar user.name <name>"
 - Then, a valid email must be set using "git config --global user.email <email>"
  
+_Reverting changes in Git_
+- We use "git reset --hard" to have all changes discarded
+- To do it in a specific branch, use "git reset <target reference>" so any difference will stay as an uncommited change
+- To create a new commit reverting the changes from a specific one use "git revert <commit sha>"
