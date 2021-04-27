@@ -47,3 +47,8 @@ _Synchronizing Repositories_
 - We use "git fetch remote" to fetch changes from the remote but not updating tracking branches.
 - To push local changes into the remote we use "git pull remote"
 - To push a local branch to the remote repository we use the command "git push -u remote branch"
+
+_Configuring Git_
+- To start working with git, you must set the name that will be attached to your commits and tags with "git config --globar user.name <name>"
+- Then, a valid email must be set using "git config --global user.email <email>"
+ 
