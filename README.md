@@ -4,8 +4,6 @@
 
 GIT COMMAND
 
-
-
 _Creating & deleting directories_
 - To create a new directory we use: "mkdir" <directory name>
 - To delete an existing directory we use: "rmdir" <directory name>
@@ -56,6 +54,17 @@ _Reverting changes in Git_
 - We use "git reset --hard" to have all changes discarded
 - To do it in a specific branch, use "git reset <target reference>" so any difference will stay as an uncommited change
 - To create a new commit reverting the changes from a specific one use "git revert <commit sha>"
+
+BASH COMMANDS
+
+- To quickly view all files in a specified directory we use "ls"
+- "mkdir" is a command we use to create directories.
+- To print the directory you are currently in, you can use "pwd"
+- To move ore rename a directory use "mv"
+- "cat" is one of the most versatile commands and serves three main functions: displaying the file, merging copies, and creating new ones.
+- Use "exit" to close a terminal window
+- When there are a lot of commands on your console or terminal window use "clear" to erase everyting.
+ 
 
 _Code Snippets_ 
  
