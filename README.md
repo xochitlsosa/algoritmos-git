@@ -75,6 +75,7 @@ _Example 1_
  "Area of rectangle"
 
 #include <iostream> 
+
 using namespace std; 
 
 const double pi = 3.14159; 
@@ -84,9 +85,13 @@ int main()
 float length, width, area; 
 
 cout << "Enter The Length Of The Rectangle: "; 
+
 cin >> length; 
+
 cout << "Enter The Width Of Rectangle: "; 
+
 cin >> width; 
+
 area = length*width; 
 
 cout <<"The area of the rectangle is : "<< area << endl;
@@ -101,15 +106,21 @@ _Example 2_
  "Average"
 
  #include <iostream.h>
+
 #include <math.h> 
+
 int main()
 {
 int number1,number2,number3;
+
 double average;
 
 cout<<"Enter three integers and I will display the average"<<endl;
+
 cin>>number1>>number2>>number3;
+
 average = (number1 + number2 + number3) / 3.0;
+
 cout<<"The average is "<<average<<endl;
 
 return 0;
@@ -122,16 +133,21 @@ _Example 3_
 "Multiplying numbers by a potence"
 
  #include <iostream> 
+
 using namespace std; 
+
 int main() 
 { 
 int number,power,count,i; 
 
 cout << "Enter Number: "; cin >> number; 
+
 cout << "Enter the power: "; cin >> power; 
 
 count = 1; 
+
 for (i=1; i <=power; i++) 
+
 count = count*number; 
 
 cout << count << endl; 
