@@ -56,3 +56,32 @@ _Reverting changes in Git_
 - We use "git reset --hard" to have all changes discarded
 - To do it in a specific branch, use "git reset <target reference>" so any difference will stay as an uncommited change
 - To create a new commit reverting the changes from a specific one use "git revert <commit sha>"
+
+_Code Snippets_ 
+Code snippets are pieces of reusable code that can be used for bigger projects to help with functionality and efficiency when programming.
+- Example 1
+Area of rectangle
+
+#include <iostream> 
+using namespace std; 
+
+const double pi = 3.14159; 
+
+int main() 
+{ 
+float length, width, area; 
+
+cout << "Enter The Length Of The Rectangle: "; 
+cin >> length; 
+cout << "Enter The Width Of Rectangle: "; 
+cin >> width; 
+area = length*width; 
+
+cout <<"The area of the rectangle is : "<< area << endl;
+
+return 0; 
+}
+
+- This code snippet is used to calculate the are of a rectangle; you would just need to substitute the values that you need and put it into your program for it to run.
+
+
