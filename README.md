@@ -58,9 +58,9 @@ _Reverting changes in Git_
 - To create a new commit reverting the changes from a specific one use "git revert <commit sha>"
 
 _Code Snippets_ 
-Code snippets are pieces of reusable code that can be used for bigger projects to help with functionality and efficiency when programming.
+ Code snippets are pieces of reusable code that can be used for bigger projects to help with functionality and efficiency when programming.
 - Example 1
-Area of rectangle
+ Area of rectangle
 
 #include <iostream> 
 using namespace std; 
@@ -84,4 +84,25 @@ return 0;
 
 - This code snippet is used to calculate the are of a rectangle; you would just need to substitute the values that you need and put it into your program for it to run.
 
+- Example 2
+ Average
 
+ #include <iostream.h>
+#include <math.h> 
+int main()
+{
+int number1,number2,number3;
+double average;
+
+cout<<"Enter three integers and I will display the average"<<endl;
+cin>>number1>>number2>>number3;
+average = (number1 + number2 + number3) / 3.0;
+cout<<"The average is "<<average<<endl;
+
+return 0;
+}
+
+- This piece of code will be useful to recycle when we are working on a program that needs to calculate averages, just put your values into the code and change the name of the variables if you want.
+
+
+ 
