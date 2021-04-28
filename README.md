@@ -66,10 +66,12 @@ BASH COMMANDS
 - When there are a lot of commands on your console or terminal window use "clear" to erase everyting.
  
 
-_Code Snippets_ 
+CODE SNIPPETS 
  
 Code snippets are pieces of reusable code that can be used for bigger projects to help with functionality and efficiency when programming.
-- Example 1
+
+_Example 1_
+
  "Area of rectangle"
 
 #include <iostream> 
@@ -94,7 +96,8 @@ return 0;
 
 - This code snippet is used to calculate the are of a rectangle; you would just need to substitute the values that you need and put it into your program for it to run.
 
-- Example 2
+_Example 2_
+
  "Average"
 
  #include <iostream.h>
@@ -114,8 +117,9 @@ return 0;
 
 - This piece of code will be useful to recycle when we are working on a program that needs to calculate averages, just put your values into the code and change the name of the variables if you want.
 
-- Example 3 
- "Multiplying numbers by a potence"
+_Example 3_ 
+ 
+"Multiplying numbers by a potence"
 
  #include <iostream> 
 using namespace std; 
@@ -138,3 +142,4 @@ return 0;
 - This snippet would be useful when working with numbers, it is used to multiply a single number into a potence in a faster way and making the code a lot smaller and compact. 
 
  
+
